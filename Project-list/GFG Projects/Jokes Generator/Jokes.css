@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(47, 97, 80);
+    color: beige;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.App {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+} 
