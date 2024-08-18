@@ -5,7 +5,8 @@
 // import TodoApptwo from "./YT Projects/TO DO APP/TodoApp2/TodoApptwo"
 // import Nike from "./YT Projects/Nike Web/Components/Nike";
 // import Navigation from "./YT Projects/Nike Web/Components/Navigation";
-import Bmi from './YT Projects/BMI Calculator/Bmi';
+// import Bmi from './YT Projects/BMI Calculator/Bmi';
+import InterestCalc from './YT Projects/Interest Calculator/InterestCalc';
 
 function App() {
     return(
@@ -21,6 +22,7 @@ function App() {
             {/* <Navigation></Navigation>
             <Nike></Nike> */}
             {/*<Bmi></Bmi> */}
+            <InterestCalc></InterestCalc>
         </div>
     )
     
