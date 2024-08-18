@@ -1,16 +1,17 @@
-import Form from "./GFG Projects/Form Submission/Form"
+// import Form from "./GFG Projects/Form Submission/Form"
 // import JokesApp from "./GFG Projects/Jokes Generator/JokesApp"
 // import PassValid from "./GFG Projects/Password Validator/PassValid";
 // import ProjectTodoApp from "./YT Projects/TO DO APP/ToDoApp1/ProjectTodoApp"
 // import TodoApptwo from "./YT Projects/TO DO APP/TodoApp2/TodoApptwo"
 // import Nike from "./YT Projects/Nike Web/Components/Nike";
 // import Navigation from "./YT Projects/Nike Web/Components/Navigation";
+import Bmi from './YT Projects/BMI Calculator/Bmi';
 
 function App() {
     return(
         <div>
             {/* GFG */}
-            <Form></Form>
+            {/*<Form></Form> */}
             {/* <JokesApp></JokesApp> */}
             {/* <PassValid></PassValid> */}
             
@@ -19,6 +20,7 @@ function App() {
             {/* <TodoApptwo></TodoApptwo> */}
             {/* <Navigation></Navigation>
             <Nike></Nike> */}
+            {/*<Bmi></Bmi> */}
         </div>
     )
     
