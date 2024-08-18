@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #282c34;
+}
+
+.container {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 3rem;
+  width: 400px;
+}
+
+.heading-text {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.heading-one {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.heading-two {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+.total-amount-card {
+  background-color: #d6ff58;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.total-amount-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.total-amount-para {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+.input-area {
+  margin-bottom: 2rem;
+}
+
+.input-field {
+  margin-top: 1rem;
+}
+
+#outlined-basic {
+  width: 100%;
+}
+
+.button-collection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-one {
+  width: 45%;
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-one:hover {
+  background-color: #0056b3;
+}
+
+.btn-one[variant="outlined"] {
+  background-color: transparent;
+  color: #007bff;
+  border: 2px solid #007bff;
+}
+
+.btn-one[variant="outlined"]:hover {
+  background-color: #007bff;
+  color: #fff;
+}
